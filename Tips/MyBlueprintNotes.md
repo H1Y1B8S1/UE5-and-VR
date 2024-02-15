@@ -81,3 +81,51 @@ Here's a simple example to illustrate the usage:
 - **Event Tick:** Continuously update the position of a moving object, check for player input, or manage dynamic states during gameplay.
 
 Always be mindful of performance considerations, especially with the "Event Tick" node, as executing too many operations every frame can impact your game's frame rate. If you have specific scenarios or functionalities in mind, feel free to provide more details, and I can guide you through their implementation!
+
+
+
+
+## Important Nodes:
+**Red color nodes : *Event nodes*** - red-colored nodes in the Blueprint editor typically represent Event nodes. These nodes are essential for handling various game events. Here's a detailed list of common red-colored Event nodes along with their functionalities:
+
+1. **Event Begin Play:**
+   - **Functionality:** Executes when the game starts or when the Blueprint is first spawned.
+   - **Use Case:** Initialize variables, set up initial game state, or perform other actions needed at the beginning.
+
+2. **Event Tick:**
+   - **Functionality:** Executes every frame during gameplay.
+   - **Use Case:** Continuously update and check conditions during gameplay.
+
+3. **Event Actor Begin Overlap:**
+   - **Functionality:** Triggers when the Blueprint's actor overlaps with another actor.
+   - **Use Case:** Implement logic for interactions when two actors come into contact.
+
+4. **Event Actor End Overlap:**
+   - **Functionality:** Triggers when the overlap between two actors ends.
+   - **Use Case:** Implement logic for actions to be taken when two actors are no longer in contact.
+
+5. **Event Hit:**
+   - **Functionality:** Activates when the actor is hit by a physical collision.
+   - **Use Case:** Implement responses to collisions, such as damage calculations or visual effects.
+
+6. **Event Destroyed:**
+   - **Functionality:** Executes when the actor is destroyed.
+   - **Use Case:** Clean up resources or perform actions before the actor is removed from the game.
+
+7. **Event Any Damage:**
+   - **Functionality:** Triggers when the actor receives any form of damage.
+   - **Use Case:** Implement custom logic for handling damage events.
+
+8. **Event Actor OnClicked:**
+   - **Functionality:** Activates when the actor is clicked in the game.
+   - **Use Case:** Implement actions based on player interaction, like opening menus or triggering events.
+
+9. **Event Actor OnReleased:**
+   - **Functionality:** Triggers when the mouse button is released after clicking on the actor.
+   - **Use Case:** Implement actions based on the release of the mouse button.
+
+10. **Event Timer:**
+    - **Functionality:** Executes when a specified timer expires.
+    - **Use Case:** Implement timed events or actions in the game.
+
+These are some of the fundamental red-colored Event nodes in UE5 Blueprints. Each serves a specific purpose in controlling the flow and behavior of your game.
