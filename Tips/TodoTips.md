@@ -5,3 +5,12 @@
    *r.RayTracing.Shadows.EnableTwoSidedGeometry 0*
    - here we have a problem where after setting value to 0 1 sided objects wont produce shadows.
 3. error value change apply on nanite mesh to 0 (Not recommended).
+
+
+**Light setup:**
+
+- Directional light - make it movable.(if we want more sun change or increase **atmosphere sunlight index** )
+   - Change the color of sun by changing value of **Temperature** in Details.
+- Sky light - make it movable and check **Real time capture**.
+- Exponential height fog - 
+- Volumetric Cloud - 

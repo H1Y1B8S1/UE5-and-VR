@@ -12,5 +12,6 @@
 
 # UE5 Editor tips
 1. in vr template press p to see teleport area
-2. hold any mouse button and hold "c" to zoom in in level editor.
-3. 
+2. hold any mouse button and hold "c" to zoom-in view and hold "z" to zoom-out in level editor.
+3. Under the viewport options set bookmarks to directly jump to anywhere in map where that bookmark is set.
+4. 
