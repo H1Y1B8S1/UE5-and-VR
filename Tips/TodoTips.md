@@ -14,3 +14,14 @@
 - Sky light - make it movable and check **Real time capture**.
 - Exponential height fog - 
 - Volumetric Cloud - 
+
+
+**build LandScape Material:**
+- Enable fully rough for the material.
+- add node called **landscape Layer Blend**.
+   - Add layers in array, and give names **without space in name**.
+   - Blend type = LB Weight Blend.
+- now bring Materials Base Color (2nd one) to event graph and connect RGB to each layer blend. And connect Layer blend to **Base color**.
+- Now same process with **Normal map (3rd one)**. duplicate the Layer blend and connect all the normal maps. And connect Layer blend to **Normal**.
+- Now add this material in whichever landscape we want to paint.
+
