@@ -59,8 +59,11 @@
   - **Exposure** - Min/Max brightness setting
   - **Shadows** - settings for better shadow 
 
-
-
+**Create a Pack or a single actor from multiple obj**
+- Select all obj you want to pack in, then right click
+- Go to Level - **Create a Packed level Actor** and save the new scene as well as new BluePrint.
+  
+  
 
 
 
