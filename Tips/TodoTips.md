@@ -27,6 +27,7 @@
 
 - Directional light - make it movable.(if we want more sun change or increase **atmosphere sunlight index** )
    - Change the color of sun by changing value of **Temperature** in Details.
+   - **Light shafts** - Light shafts bloom for better visual.
 - Sky light - make it movable and check **Real time capture**.
 - Exponential height fog - 
 - Volumetric Cloud - 
@@ -50,9 +51,13 @@
 - **Asset Action - Bulk edit via Property matrix**
 - Set value **BlockAll**(by typing) in Collision profile name.
 
-**PostProcessVolume:**
-- Add postprocessvolume from the place Actor tab
-- check **infinite Extent (unbound)**
+**For better visual in Scene: PostProcessVolume**
+- Add **postprocessvolume** from the **place Actor** tab
+  - check **infinite Extent (unbound)**
+  - **Temperature** setting to adjust the color and look of field or level.
+  - **bloom** - intensity to change aura around sun.
+  - **Exposure** - Min/Max brightness setting
+  - **Shadows** - settings for better shadow 
 
 
 
