@@ -24,4 +24,24 @@
 - now bring Materials Base Color (2nd one) to event graph and connect RGB to each layer blend. And connect Layer blend to **Base color**.
 - Now same process with **Normal map (3rd one)**. duplicate the Layer blend and connect all the normal maps. And connect Layer blend to **Normal**.
 - Now add this material in whichever landscape we want to paint.
+- Now go in LandScape mode and choose paint, then at bottom create material info my click **+** on each material and save in folder.
+  
+**Plant painting:**
+- Go to foliage - placement- uncheck align to normal to grow straight instead side way on heels.
 
+
+
+**FPS and performance setting:**
+- Rendering (setup this values) 
+  - Shadow Map Method = Shadow Maps
+  - Anti-Aliasing method = TAA
+
+
+
+
+
+
+**Adding Collision in multiple OBJ: Bulk edit via Property matrix**
+- Select all the obj we want to add collision in then select right click.
+- **Asset Action - Bulk edit via Property matrix**
+- Set value **BlockAll**(by typing) in Collision profile name.
