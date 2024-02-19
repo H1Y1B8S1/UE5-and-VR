@@ -1,3 +1,12 @@
+# Performance and FPS settings
+**Increase fps when so many nanite obj like tree in level**
+- IN Rendering (setup this values) 
+  - Shadow Map Method = Shadow Maps
+  - Anti-Aliasing method = TAA
+
+
+# Problem solutions
+
 **Shadow problem:**
 
 1. directional Light - Cast Ray traced Shadows = toggle it to Disable or Project setting instead Enable.
@@ -6,6 +15,13 @@
    - here we have a problem where after setting value to 0 1 sided objects wont produce shadows.
 3. error value change apply on nanite mesh to 0 (Not recommended).
 
+
+
+
+
+
+
+# OPEN WORD MAP SET UP
 
 **Light setup:**
 
@@ -34,6 +50,9 @@
 - **Asset Action - Bulk edit via Property matrix**
 - Set value **BlockAll**(by typing) in Collision profile name.
 
+**PostProcessVolume:**
+- Add postprocessvolume from the place Actor tab
+- check **infinite Extent (unbound)**
 
 
 
@@ -43,10 +62,3 @@
 
 
 
-
-
-
-**FPS and performance setting:**
-- Rendering (setup this values) 
-  - Shadow Map Method = Shadow Maps
-  - Anti-Aliasing method = TAA
