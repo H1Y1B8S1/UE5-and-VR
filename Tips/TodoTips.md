@@ -26,8 +26,23 @@
 - Now add this material in whichever landscape we want to paint.
 - Now go in LandScape mode and choose paint, then at bottom create material info my click **+** on each material and save in folder.
   
-**Plant painting:**
+**Plant painting: straight to land**
 - Go to foliage - placement- uncheck align to normal to grow straight instead side way on heels.
+
+**Adding Collision in multiple OBJ: Bulk edit via Property matrix**
+- Select all the obj we want to add collision in then select right click.
+- **Asset Action - Bulk edit via Property matrix**
+- Set value **BlockAll**(by typing) in Collision profile name.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -35,13 +50,3 @@
 - Rendering (setup this values) 
   - Shadow Map Method = Shadow Maps
   - Anti-Aliasing method = TAA
-
-
-
-
-
-
-**Adding Collision in multiple OBJ: Bulk edit via Property matrix**
-- Select all the obj we want to add collision in then select right click.
-- **Asset Action - Bulk edit via Property matrix**
-- Set value **BlockAll**(by typing) in Collision profile name.
