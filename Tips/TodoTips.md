@@ -5,7 +5,7 @@
   - Anti-Aliasing method = TAA
 
 
-# Problem solutions
+# Problems & solutions
 
 **Shadow problem:**
 
@@ -15,6 +15,10 @@
    - here we have a problem where after setting value to 0 1 sided objects wont produce shadows.
 3. error value change apply on nanite mesh to 0 (Not recommended).
 
+**LandScape square loading problem.**
+- Go the the Material applied for the landscape(which square are not being updated with the material)
+- selecte all Base and normal and set details - **Sampler source** to **Shared: wrap**
+- save apply.
 
 
 
@@ -63,7 +67,10 @@
 - Select all obj you want to pack in, then right click
 - Go to Level - **Create a Packed level Actor** and save the new scene as well as new BluePrint.
   
-  
+
+**Level Instance : Bring whole level into the world or current level**
+- we can add whole level into the world.
+
 
 
 
